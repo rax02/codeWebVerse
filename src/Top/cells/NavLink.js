@@ -1,11 +1,25 @@
-import React from 'react';
-import './NavLink.css'
+import React, { Component } from 'react';
+import './NavLink.css';
 
-const navLink = (props) => {
-    return (
-        <div className={props.page}>{props.children}</div>
-    );
+class NavLink extends Component {
 
+    toggle = () => {
+        this.props.togglePage(this.props.pageName);
+    }
+
+    render() {
+        if (this.props.currentPage.toUpperCase() === this.props.children.toUpperCase()) {
+            return (
+                <div className={this.props.currentPage} ><div className="styles">{this.props.children}</div></div>
+            );
+        }
+        else {
+            return (
+                <div ><div onClick={this.toggle} className="styles">{this.props.children}</div></div>
+            );
+        }
+    }
 }
 
-export default navLink;
+
+export default NavLink;

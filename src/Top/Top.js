@@ -4,13 +4,17 @@ import NavBar from './cells/NavBar';
 import Search from './cells/Search';
 import './Top.css';
 
+
 class Top extends Component {
+
+
 
     render() {
         return (<div>
-            <nav>
-                <Logo />
-                <NavBar page='assets' />
+            <nav className="flex-container top-nav">
+                <Logo togglePage={this.props.togglePage} currentPage={this.props.currentPage} />
+                <NavBar togglePage={this.props.togglePage} currentPage={this.props.currentPage} />
+
                 <Search />
             </nav>
 

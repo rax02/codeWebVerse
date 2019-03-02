@@ -1,3 +1,26 @@
-.assets{
-    border-bottom: 5px solid blue;
+
+
+.Learn{
+    border-bottom: 0.25em solid red;
+}
+
+.Assets{
+    border-bottom: 0.25em solid rgb(156, 185, 28);
+}
+.Guiders{
+    border-bottom: 0.25em solid rgb(84, 143, 45);
+}
+.Tools{
+    border-bottom: 0.25em solid rgb(206, 31, 133);
+}
+.Articles{
+    border-bottom: 0.25em solid rgb(173, 33, 57);
+}
+.Community{
+    border-bottom: 0.25em solid rgb(115, 18, 160);
+}
+.styles{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold
 }

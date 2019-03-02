@@ -1,4 +1,12 @@
-nav{
+.top-nav{
     background-color: aquamarine;
-    display: flex;
+   
+    
 }
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+  }

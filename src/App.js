@@ -1,11 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Top from './Top/Top';
 import Mid from './Mid/Mid';
 import Bottom from './Bottom/Bottom';
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pages: ['Home', 'Learn', 'Assets', 'Guiders', 'Tools', 'Articles', 'Community', 'Search'],
+      currentPage: 'Learn'
+
+    };
+
+
+
+  }
+
+  togglePage = (x) => {
+    this.setState({ currentPage: x })
+  }
+
+
+
+
   render() {
+
     return (
       // <div className="App">
       //   <header className="App-header">
@@ -25,8 +44,10 @@ class App extends Component {
       // </div>
 
       <div className="App">
-        <Top />
-        <Mid />
+        <Top togglePage={this.togglePage} currentPage={this.state.currentPage} />
+        <Mid currentPage={this.state.currentPage} />
+
+
         <Bottom />
       </div>
 

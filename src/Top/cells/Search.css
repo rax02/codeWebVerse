@@ -1,0 +1,12 @@
+.search{
+    height: 1.5em;
+ border-radius: 1em;
+ border-style:solid;
+ border-width: 1px;
+ border-color: blue;
+ background-color: grey;
+ background-image: url('magnifier.png');
+ background-repeat: no-repeat;
+ background-size: 1em;
+ background-position: 95%;
+}

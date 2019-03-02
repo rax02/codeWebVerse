@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import './Bottom.css';
 class Bottom extends Component {
     render() {
 
         return (
-            <h1>Bottom</h1>
+            <div className="bottom-back">Bottom</div>
         );
     }
 }

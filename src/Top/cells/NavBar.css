@@ -1,4 +1,13 @@
-nav{
+.navBar-nav{
     background-color: goldenrod;
-    display: flex;
+  
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+}
+
