@@ -1,7 +1,9 @@
 .top-nav{
-    background-color: aquamarine;
-   
-    
+    background-color:#161318;
+   color: whitesmoke;
+   box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.8);
+   position: fixed;
+   width: 100%;
 }
 .flex-container{
     display:flex;

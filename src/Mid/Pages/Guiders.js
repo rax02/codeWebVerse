@@ -1,9 +1,10 @@
 import React from 'react';
+import './Guider.css';
 
 const Guiders = (props) => {
 
     return (
-        <div></div>
+        <div className='guiderStyles'></div>
     );
 }
 

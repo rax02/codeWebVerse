@@ -4,7 +4,9 @@ class Bottom extends Component {
     render() {
 
         return (
-            <div className="bottom-back">Bottom</div>
+            <div className="bottomStyles">
+                <div className='logoStyle'>codeWebverse.</div>
+            </div>
         );
     }
 }

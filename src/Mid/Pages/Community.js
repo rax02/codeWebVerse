@@ -1,9 +1,10 @@
 import React from 'react';
+import './Community.css';
 
 const Community = (props) => {
 
     return (
-        <div></div>
+        <div className='communityStyles'></div>
     );
 }
 

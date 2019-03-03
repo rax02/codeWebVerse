@@ -1,3 +1,9 @@
-.bottom-back{
-    background-color: gray;
+.bottomStyles{
+    background-color: #161318;
+    color: whitesmoke;
+    box-shadow: 0px -5px 19px rgba(0, 0, 0, 0.8);
+}
+.logoStyle{
+    text-align: right;
+    padding: 0.5em;
 }

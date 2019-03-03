@@ -1,9 +1,10 @@
 import React from 'react';
+import './Articles.css';
 
 const Articles = (props) => {
 
     return (
-        <div></div>
+        <div className='articlesStyles'></div>
     );
 }
 

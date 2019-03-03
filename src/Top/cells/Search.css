@@ -3,10 +3,14 @@
  border-radius: 1em;
  border-style:solid;
  border-width: 1px;
- border-color: blue;
- background-color: grey;
+ border-color: rgb(77, 72, 72);
+ background-color: #161318;
  background-image: url('magnifier.png');
  background-repeat: no-repeat;
  background-size: 1em;
  background-position: 95%;
+
+}
+.searchStyles{
+    padding:0.5em;
 }

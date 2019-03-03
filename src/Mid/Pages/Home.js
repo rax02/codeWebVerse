@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './Home.css';
+import image from './softwareEngineer.png';
 
-const Home = (props) => {
+class Home extends Component {
 
-    return (
-        <div></div>
-    );
+    render() {
+        return (
+            <div className='homeStyles'>
+
+                <img className='homeImage' src={image} alt='loadinggggg'></img>
+            </div>
+        );
+    }
 }
+
 
 export default Home;

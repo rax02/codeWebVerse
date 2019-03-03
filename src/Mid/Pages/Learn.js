@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './Learn.css';
 const Learn = (props) => {
 
     return (
-        <div></div>
+        <div className='learnStyles'>
+
+
+        </div>
     );
 }
 

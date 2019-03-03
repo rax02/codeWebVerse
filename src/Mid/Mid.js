@@ -13,51 +13,54 @@ class Mid extends Component {
     render() {
         if (this.props.currentPage === 'Home') {
             return (
-                <div className="">CodeWEBverse
-                <Home />
+                <div className="">
+
+
+                    <Home />
 
                 </div>
             );
         }
         else if (this.props.currentPage === 'Learn') {
             return (
-                <div className="">learn
-                <Learn />
+                <div className="">
+                    <Learn />
                 </div>
             );
         }
         else if (this.props.currentPage === 'Assets') {
             return (
-                <div className="">Assets
-                <Assets />
+                <div className="">
+
+                    <Assets />
                 </div>
             );
         }
         else if (this.props.currentPage === 'Guiders') {
             return (
-                <div className="">Guiders
-                <Guiders />
+                <div className="">
+                    <Guiders />
                 </div>
             );
         }
         else if (this.props.currentPage === 'Tools') {
             return (
-                <div className="">Tools
-<Tools />
+                <div className="">
+                    <Tools />
                 </div>
             );
         }
         else if (this.props.currentPage === 'Articles') {
             return (
-                <div className="">Articles
-                <Articles />
+                <div className="">
+                    <Articles />
                 </div>
             );
         }
         else if (this.props.currentPage === 'Community') {
             return (
-                <div className="">Community
-                <Community />
+                <div className="">
+                    <Community />
                 </div>
             );
         }

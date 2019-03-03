@@ -1,26 +1,26 @@
 
 
 .Learn{
-    border-bottom: 0.25em solid red;
+    border-bottom: 0.25em solid #1972f8;
 }
 
 .Assets{
-    border-bottom: 0.25em solid rgb(156, 185, 28);
+    border-bottom: 0.25em solid #f89219;
 }
 .Guiders{
-    border-bottom: 0.25em solid rgb(84, 143, 45);
+    border-bottom: 0.25em solid #07e044;
 }
 .Tools{
-    border-bottom: 0.25em solid rgb(206, 31, 133);
+    border-bottom: 0.25em solid #fc19d7;
 }
 .Articles{
-    border-bottom: 0.25em solid rgb(173, 33, 57);
+    border-bottom: 0.25em solid #15f6f6;
 }
 .Community{
-    border-bottom: 0.25em solid rgb(115, 18, 160);
+    border-bottom: 0.25em solid #12ee9f;
 }
 .styles{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: 0.5em;
+    
     font-weight: bold
 }

@@ -1,6 +1,7 @@
 .Logo{
-    border-bottom: 0.25em solid red;
+    border-bottom: 0.25em solid #ff164e;
 }
 .logoStyles{
     box-shadow: 2px;
+    padding: 0.5em;
 }
