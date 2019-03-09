@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from './cells/Logo';
 import NavBar from './cells/NavBar';
 import Search from './cells/Search';
+import SignInButton from './cells/SignInButton';
 import './Top.css';
 
 
@@ -16,6 +17,7 @@ class Top extends Component {
                 <NavBar togglePage={this.props.togglePage} currentPage={this.props.currentPage} />
 
                 <Search />
+                <SignInButton togglePage={this.props.togglePage} currentPage={this.props.currentPage} signedIn={this.props.signedIn} />
             </nav>
 
         </div>

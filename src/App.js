@@ -7,8 +7,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      pages: ['Home', 'Learn', 'Assets', 'Guiders', 'Tools', 'Articles', 'Community', 'Search'],
-      currentPage: 'Home'
+      pages: ['Home', 'Learn', 'Assets', 'Guiders', 'Tools', 'Articles', 'Community', 'Search', 'SignInPage', 'Dashboard'],
+      currentPage: 'SignInPage',
+      signedIn: 'false'
 
     };
 
@@ -45,7 +46,7 @@ class App extends Component {
 
       <div className="App">
 
-        <Top togglePage={this.togglePage} currentPage={this.state.currentPage} />
+        <Top togglePage={this.togglePage} currentPage={this.state.currentPage} signedIn={this.state.signedIn} />
         <Mid currentPage={this.state.currentPage} />
 
 

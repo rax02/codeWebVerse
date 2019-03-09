@@ -3,7 +3,7 @@ import React from 'react';
 const Search = (props) => {
 
     return (
-        <div></div>
+        <div>{this.props.children}</div>
     );
 }
 

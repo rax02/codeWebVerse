@@ -8,6 +8,8 @@ import Tools from './Pages/Tools';
 import Articles from './Pages/Articles';
 import Community from './Pages/Community';
 import Search from './Pages/Search';
+import SignInPage from './Pages/SignInPage';
+import Dashboard from './Pages/Dashboard';
 
 class Mid extends Component {
     render() {
@@ -68,6 +70,20 @@ class Mid extends Component {
             return (
                 <div className="">Search Result
                 <Search />
+                </div>
+            );
+        }
+        else if (this.props.currentPage === 'SignInPage') {
+            return (
+                <div className="">
+                    <SignInPage />
+                </div>
+            );
+        }
+        else if (this.props.currentPage === 'Dashboard') {
+            return (
+                <div className="">
+                    <Dashboard />
                 </div>
             );
         }
