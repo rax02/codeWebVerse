@@ -33,6 +33,7 @@ class SignInPage extends Component {
     render() {
         return (
             <div className='signInPageStyles'><div className='box'></div>
+              hi starting a new day....
                 <div className='signInCard'>codeWebverse<br></br>
                     <input onChange={this.onChangeEmail} type='email' placeholder='email'></input><br></br>
                     <input onChange={this.onChangePassword} type='password' placeholder='password'></input><br></br>

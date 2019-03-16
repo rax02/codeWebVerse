@@ -9,6 +9,8 @@ class Home extends Component {
             <div className='homeStyles'>
 
                 <img className='homeImage' src={image} alt='loadinggggg'></img>
+              
+
             </div>
         );
     }
