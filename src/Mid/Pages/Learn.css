@@ -1,5 +1,13 @@
 .learnStyles{
     background-color: #1972f8;
     min-height: 1200px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}

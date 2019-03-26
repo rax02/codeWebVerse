@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       pages: ['Home', 'Learn', 'Assets', 'Guiders', 'Tools', 'Articles', 'Community', 'Search', 'SignInPage', 'Dashboard'],
-      currentPage: 'SignInPage',
+      currentPage: 'Learn',
       signedIn: 'false'
 
     };

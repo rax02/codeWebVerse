@@ -1,0 +1,14 @@
+.card1{
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.8);
+    border-radius: 0.75em; 
+    width: 10em;
+    height: 10em;
+    background-color: whitesmoke;
+    border-image: 0;
+    overflow: hidden;
+    margin: 2%;
+}
+
+#card1Bottom{
+    border-color: gray;
+}
