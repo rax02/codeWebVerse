@@ -1,0 +1,26 @@
+.button1{
+border-style: solid;
+    border-radius: 0.25em;
+    border-width: 0.125em;
+    background-color: black;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+   
+    
+}
+.button2{
+background-color: whitesmoke;
+box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.8);
+width: fit-content;
+font-weight: bold;
+
+    border-radius: 2em;
+    color:black;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}

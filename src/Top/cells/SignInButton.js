@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './SignInButton.css';
+import Button1 from '../../Elements/Buttons/buttons';
 
 class SignIn extends Component {
 
@@ -13,8 +15,8 @@ class SignIn extends Component {
     render() {
         if (this.props.signedIn === 'false') {
             return (
-                <div>
-                    <button onClick={this.toggle1}>SIGN IN</button>
+                <div className='signInButtonStyles' onClick={this.toggle1}>
+                    <Button1 >SIGN IN</Button1>
                 </div>
             );
         } else {

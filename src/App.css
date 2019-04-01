@@ -4,7 +4,21 @@
   color: black;
   
 }
-
+a{
+  text-decoration-line: none;
+  color: black;
+}
+.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+.box{
+  min-height: 5rem;
+}
 
 
 /* .App-logo {
