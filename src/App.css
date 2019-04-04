@@ -8,6 +8,11 @@ a{
   text-decoration-line: none;
   color: black;
 }
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
 .grid{
   display: flex;
   flex-direction: row;
@@ -16,8 +21,13 @@ a{
     padding-bottom: 10%;
     padding-top: 2%;
 }
+.flexo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .box{
-  min-height: 5rem;
+  min-height: 2.5rem;
 }
 
 

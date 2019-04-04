@@ -5,3 +5,24 @@
     padding-right: 10%;
 }
 
+.leftNav{
+    width: 15%;
+    min-height: 95vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    color:whitesmoke;
+    background-color:#444444;
+    float: left;
+}
+.centerContent{
+    width:70%;
+    
+    min-height: 90vh;
+}
+.rightContent{
+    width:15%;
+    float: right;
+    min-height: 90vh;
+    color:whitesmoke;
+    background-color:#444444;
+}
